@@ -42,7 +42,5 @@ class MainActivity : AppCompatActivity() {
         bSalir.setOnClickListener {
             exitProcess(0)
         }
-
-        //Prueba
     }
 }
