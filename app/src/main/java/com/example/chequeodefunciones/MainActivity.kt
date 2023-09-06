@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val bCamDel : Button = findViewById(R.id.bCamDel)
         val bCamTras : Button = findViewById(R.id.bCamTras)
         val bGPS : Button = findViewById(R.id.bGPS)
+        val bParlantes : Button = findViewById(R.id.bParlantes)
 
         bFlash.setOnClickListener {
             val irFlash : Intent = Intent(this, ChequeoFlash::class.java)
@@ -37,6 +38,11 @@ class MainActivity : AppCompatActivity() {
         bCamTras.setOnClickListener {
             val irCamTras : Intent = Intent(this, ChequearCamaraTrasera::class.java)
             startActivity(irCamTras)
+        }
+
+        bParlantes.setOnClickListener {
+            val irParlantes = Intent(this, ChequearParlantes::class.java)
+            startActivity(irParlantes)
         }
 
         bSalir.setOnClickListener {

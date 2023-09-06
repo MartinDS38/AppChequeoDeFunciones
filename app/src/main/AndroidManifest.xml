@@ -19,6 +19,9 @@
         android:theme="@style/Theme.ChequeoDeFunciones"
         tools:targetApi="31">
         <activity
+            android:name=".ChequearParlantes"
+            android:exported="false" />
+        <activity
             android:name=".ChequearGPS"
             android:exported="false"
             android:label="@string/title_activity_chequear_gps" />

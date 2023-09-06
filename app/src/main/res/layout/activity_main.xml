@@ -18,7 +18,7 @@
 
         <Button
             android:id="@+id/bFlash"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chequear Flash"
             tools:layout_editor_absoluteX="160dp"
@@ -26,7 +26,7 @@
 
         <Button
             android:id="@+id/bGPS"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chequear GPS"
             tools:layout_editor_absoluteX="159dp"
@@ -34,7 +34,7 @@
 
         <Button
             android:id="@+id/bCamDel"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chequear Cámara Delantera"
             tools:layout_editor_absoluteX="159dp"
@@ -42,17 +42,17 @@
 
         <Button
             android:id="@+id/bCamTras"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Chequear Cámara Trasera"
             tools:layout_editor_absoluteX="159dp"
             tools:layout_editor_absoluteY="204dp" />
 
         <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
+            android:id="@+id/bParlantes"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
+            android:text="Chequear Parlantes"
             tools:layout_editor_absoluteX="160dp"
             tools:layout_editor_absoluteY="257dp" />
     </LinearLayout>
